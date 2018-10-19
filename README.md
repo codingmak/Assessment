@@ -5,15 +5,16 @@ config.tf,
 outputs.tf,
 security.tf,
 variables.tf,
+terraform.plan,
 variables.tfvars,
 terraform.tfsstate,
-terraform.tfstate.backup,
-terraform.plan
+terraform.tfstate.backup
 
-These files create the security groups for the inbound and outbound connections, an elastic ip and a wordpress instance.
+
+These files will create the security groups for the inbound and outbound connections, an elastic ip and a wordpress instance.
 
 Used Terraform v0.11.8
-
+----------------------
 To run files:
 
 1. aws-cli should be installed.  
@@ -25,7 +26,7 @@ terraform init
 
 4. To create a plan of the manifest files:
 terraform plan -var-file=variables.tfvars -out terraform.plan
-used
+
 5. To run terraform plan:
 terraform apply terraform.plan
 
@@ -34,16 +35,20 @@ terraform destroy
 
 Note: In the main.tf file in the provider block -> connection is where the private key is used for ssh. 
 
-For user input when destroying:
+For when destroying:
+
+When asked:
 
 var.local_ip
-Enter a value: 
+Enter:
 0.0.0.0
 
 var.region
-Enter a value: 
+Enter:
 us-east-1
 
-It will ask if you want to destroy type: yes
+It will ask if you want to destroy type
+Enter: 
+yes
 
 

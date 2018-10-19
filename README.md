@@ -11,7 +11,8 @@ terraform.tfstate.backup,
 terraform.plan
 
 
-Install Terraform
+Install Terraform v0.11.8
++ provider.aws v1.41.0
 
 To run files:
 

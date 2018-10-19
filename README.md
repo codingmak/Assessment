@@ -44,7 +44,7 @@ When asked:
 
 var.local_ip
 **Enter:
-0.0.0.0
+0.0.0.0**
 
 var.region
 **Enter:

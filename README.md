@@ -45,3 +45,5 @@ us-east-1
 
 The key used is called “Assessment”
 This will be used so that Terraform may ssh into the instance and run commands on the word press server.
+
+The 

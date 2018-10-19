@@ -38,9 +38,7 @@ To run files:
 
 Note: In the main.tf file in the provider block -> connection is where the private key is used for ssh. 
 
-For destroying:
-
-When asked:
+For destroying when asked:
 
 var.local_ip
 **Enter:

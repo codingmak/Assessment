@@ -1,11 +1,13 @@
 
 Assessment files: 
-main.tf
-config.tf
-outputs.tf
-security.tf
-variables.tf
-variables.tfvars
+main.tf,
+config.tf,
+outputs.tf,
+security.tf,
+variables.tf,
+variables.tfvars,
+terraform.tfsstate,
+terraform.tfstate.backup,
 terraform.plan
 
 

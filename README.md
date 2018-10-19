@@ -25,16 +25,16 @@ To run files:
 2. Configure your aws settings in your ~/.aws/credentials with your Access Id Key and Secret Key 
 
 3. Run command to initialize in directory: 
-terraform init 
+**terraform init**
 
 4. To create a plan of the manifest files:
-terraform plan -var-file=variables.tfvars -out terraform.plan
+**terraform plan -var-file=variables.tfvars -out terraform.plan**
 
 5. To run terraform plan:
-terraform apply terraform.plan
+**terraform apply terraform.plan**
 
 6. If you want to remove your infrastructure that was previously created:
-terraform destroy
+**terraform destroy**
 
 Note: In the main.tf file in the provider block -> connection is where the private key is used for ssh. 
 

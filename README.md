@@ -14,7 +14,7 @@ terraform.tfsstate,
 terraform.tfstate.backup
 
 
-These files will create the security groups for the inbound and outbound connections, an elastic ip and a wordpress instance.
+These files will create the security group, an elastic ip and a wordpress instance.
 
 Uses AMI: ami-0dde0d915765e8fac
 

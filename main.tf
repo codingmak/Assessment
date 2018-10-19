@@ -31,8 +31,8 @@ resource "aws_instance" "wordpress" {
         
   
         inline = [
-            "sudo -s",
-            "sudo yum update"   
+            #"sudo -s",
+            #"sudo yum update"   
 
         ]
         

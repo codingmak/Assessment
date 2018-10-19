@@ -43,7 +43,7 @@ var.region
 Enter a value: 
 us-east-1
 
+It will ask if you want to destroy type: yes
+
 The key used is called “Assessment”
 This will be used so that Terraform may ssh into the instance and run commands on the word press server.
-
-The 

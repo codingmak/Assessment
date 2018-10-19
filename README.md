@@ -46,7 +46,7 @@ var.region
 **Enter:
 us-east-1**
 
-It will ask if you want to destroy type
+It will ask if you want to destroy
 **Enter: 
 yes**
 

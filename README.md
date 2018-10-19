@@ -32,7 +32,7 @@ terraform apply terraform.plan
 6. If you want to remove your infrastructure that was previously created:
 terraform destroy
 
-Note: In the main.tf file in the provider block -> connection is where the private key is located for ssh. 
+Note: In the main.tf file in the provider block -> connection is where the private key is used for ssh. 
 
 For user input when destroying:
 

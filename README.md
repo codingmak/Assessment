@@ -37,11 +37,11 @@ For user input when destroying:
 
 var.local_ip
 Enter a value: 
-Enter 0.0.0.0
+0.0.0.0
 
 var.region
 Enter a value: 
-Enter us-east-1
+us-east-1
 
 The key used is called “Assessment”
 This will be used so that Terraform may ssh into the instance and run commands on the word press server.

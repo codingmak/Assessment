@@ -7,9 +7,6 @@ To run files:
 
 1. Make sure that you have aws-cli installed.  
 
-The key used is called “Assessment”
-This will be used so that Terraform may ssh into the instance and run an update on the word press server.
-
 2. Configure your aws settings in your ~/.aws/credentials with the Access Id Key and Secret Key 
 
 3. Run command to initialize in directory: 
@@ -35,3 +32,6 @@ Enter 0.0.0.0
 var.region
 Enter a value: 
 Enter us-east-1
+
+The key used is called “Assessment”
+This will be used so that Terraform may ssh into the instance and run an update on the word press server.

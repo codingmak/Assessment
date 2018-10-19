@@ -1,13 +1,23 @@
 
 Assessment
 
+Project files: 
+main.tf
+config.tf
+outputs.tf
+security.tf
+variables.tf
+variables.tfvars
+(created) terraform.plan
+
+
 Install Terraform
 
 To run files:
 
-1. Make sure that you have aws-cli installed.  
+1. aws-cli should be installed.  
 
-2. Configure your aws settings in your ~/.aws/credentials with the Access Id Key and Secret Key 
+2. Configure your aws settings in your ~/.aws/credentials with your Access Id Key and Secret Key 
 
 3. Run command to initialize in directory: 
 terraform init 
@@ -34,4 +44,4 @@ Enter a value:
 Enter us-east-1
 
 The key used is called “Assessment”
-This will be used so that Terraform may ssh into the instance and run an update on the word press server.
+This will be used so that Terraform may ssh into the instance and run commands on the word press server.

@@ -43,15 +43,15 @@ For when destroying:
 When asked:
 
 var.local_ip
-Enter:
+**Enter:
 0.0.0.0
 
 var.region
-Enter:
+**Enter:
 us-east-1
 
 It will ask if you want to destroy type
-Enter: 
+**Enter: 
 yes
 
 

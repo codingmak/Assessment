@@ -38,7 +38,7 @@ terraform destroy
 
 Note: In the main.tf file in the provider block -> connection is where the private key is used for ssh. 
 
-For when destroying:
+For destroying:
 
 When asked:
 

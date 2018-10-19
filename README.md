@@ -48,10 +48,10 @@ var.local_ip
 
 var.region
 **Enter:
-us-east-1
+us-east-1**
 
 It will ask if you want to destroy type
 **Enter: 
-yes
+yes**
 
 

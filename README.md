@@ -1,14 +1,12 @@
 
-Assessment
-
-Project files: 
+Assessment files: 
 main.tf
 config.tf
 outputs.tf
 security.tf
 variables.tf
 variables.tfvars
-(created) terraform.plan
+terraform.plan
 
 
 Install Terraform

@@ -1,4 +1,7 @@
 
+Terraform v0.11.8 to automate Wordpress Installation
+----------------------
+
 Assessment files: 
 main.tf,
 config.tf,
@@ -13,8 +16,6 @@ terraform.tfstate.backup
 
 These files will create the security groups for the inbound and outbound connections, an elastic ip and a wordpress instance.
 
-Used Terraform v0.11.8
-----------------------
 To run files:
 
 1. aws-cli should be installed.  

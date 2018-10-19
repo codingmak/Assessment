@@ -10,6 +10,7 @@ terraform.tfsstate,
 terraform.tfstate.backup,
 terraform.plan
 
+These files create the security groups for the inbound and outbound connections, an elastic ip and a wordpress instance.
 
 Used Terraform v0.11.8
 
@@ -24,7 +25,7 @@ terraform init
 
 4. To create a plan of the manifest files:
 terraform plan -var-file=variables.tfvars -out terraform.plan
-
+used
 5. To run terraform plan:
 terraform apply terraform.plan
 
@@ -45,5 +46,4 @@ us-east-1
 
 It will ask if you want to destroy type: yes
 
-The key used is called “Assessment”
-This will be used so that Terraform may ssh into the instance and run commands on the word press server.
+

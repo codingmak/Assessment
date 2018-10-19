@@ -36,7 +36,7 @@ Note: In the main.tf file in the provider block -> connection is where the priva
 
 For user input when destroying:
 
-![Destroy](https://github.com/codingmak/Assessment/master/Destroy.png)
+![Destroy](https://github.com/codingmak/Assessment/blob/master/Destroy.png)
 
 var.local_ip
 Enter a value: 

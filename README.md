@@ -1,5 +1,5 @@
 
-Terraform v0.11.8 to automate Wordpress Installation
+Using Terraform v0.11.8 to automate Wordpress Installation
 ----------------------
 
 Assessment files: 

@@ -10,10 +10,9 @@ To run files:
 The key used is called “Assessment”
 This will be used so that Terraform may ssh into the instance and run an update on the word press server.
 
-Configure your aws settings in your ~/.aws/credentials with the Access Id Key and Secret Key 
+2. Configure your aws settings in your ~/.aws/credentials with the Access Id Key and Secret Key 
 
-2. cd into directory containing the .tf files 
-3. Run command to initialize: 
+3. Run command to initialize in directory: 
 terraform init 
 
 4. To create a plan of the manifest files:

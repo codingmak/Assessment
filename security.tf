@@ -1,6 +1,6 @@
 resource "aws_security_group" "wordpress_security_group" {
   name        = "wordpress_security_group"
-  description = "control access to the wordpress server"
+  description = "security group for wordpress server"
 }
 
 # allow http access on port 80 from all addresses/ports
